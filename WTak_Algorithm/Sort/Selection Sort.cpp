@@ -50,7 +50,7 @@ void selectionSort(int *arr, int len, int type) {
 }
 
 
-void outPutPrint(int *arr, int len) {
+void print_arr(int *arr, int len) {
     for(int i=0; i<len; i++) printf("%d ",arr[i]);
     puts("");
 }
@@ -64,10 +64,10 @@ int main() {
     
     // Seletion sort
     selectionSort(arr, len, MIN);
-    outPutPrint(arr, len);
+    print_arr(arr, len);
     
     selectionSort(arr, len, MAX);
-    outPutPrint(arr, len);
+    print_arr(arr, len);
     
     puts("");
     

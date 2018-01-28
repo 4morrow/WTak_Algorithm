@@ -48,7 +48,7 @@ void bubbleSort(int *arr, int len, int type) {
     }
 }
 
-void outputPrint(int *arr, int len) {
+void print_arr(int *arr, int len) {
     for(int i=0; i<len; i++) printf("%d ",arr[i]);
     puts("");
 }
@@ -59,10 +59,10 @@ int main() {
     int len = sizeof(arr) / sizeof(arr[0]);
     
     bubbleSort(arr, len, MIN);
-    outputPrint(arr, len);
+    print_arr(arr, len);
     
     bubbleSort(arr, len, MAX);
-    outputPrint(arr, len);
+    print_arr(arr, len);
     
     
     return 0;
