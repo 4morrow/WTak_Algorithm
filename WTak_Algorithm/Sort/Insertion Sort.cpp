@@ -12,7 +12,6 @@
 #include <stdio.h>
 #define SWAP(a,b,type) do{type temp; temp = a; a = b; b = temp;}while(0);
 
-
 enum {
     MIN,
     MAX
