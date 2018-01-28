@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71D95EFB201DC5B7009793A3 /* Bubble Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D95EFA201DC5B7009793A3 /* Bubble Sort.cpp */; };
+		71D95F01201DCDBF009793A3 /* Selection Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D95EFD201DCCAF009793A3 /* Selection Sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		71D95EF0201D2A43009793A3 /* WTak_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WTak_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D95EFA201DC5B7009793A3 /* Bubble Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bubble Sort.cpp"; sourceTree = "<group>"; };
+		71D95EFD201DCCAF009793A3 /* Selection Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection Sort.cpp"; sourceTree = "<group>"; };
+		71D95EFF201DCCBD009793A3 /* Insertion Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion Sort.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				71D95EFA201DC5B7009793A3 /* Bubble Sort.cpp */,
+				71D95EFD201DCCAF009793A3 /* Selection Sort.cpp */,
+				71D95EFF201DCCBD009793A3 /* Insertion Sort.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -127,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D95EFB201DC5B7009793A3 /* Bubble Sort.cpp in Sources */,
+				71D95F01201DCDBF009793A3 /* Selection Sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
