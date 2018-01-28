@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71D95F03201DCEB4009793A3 /* Merge Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D95F02201DCEB4009793A3 /* Merge Sort.cpp */; };
+		71D95F0C201DEB83009793A3 /* Array Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D95F0B201DEB83009793A3 /* Array Stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 		71D95EFD201DCCAF009793A3 /* Selection Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection Sort.cpp"; sourceTree = "<group>"; };
 		71D95EFF201DCCBD009793A3 /* Insertion Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion Sort.cpp"; sourceTree = "<group>"; };
 		71D95F02201DCEB4009793A3 /* Merge Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Sort.cpp"; sourceTree = "<group>"; };
+		71D95F04201DD5AD009793A3 /* Quick Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Quick Sort.cpp"; sourceTree = "<group>"; };
+		71D95F0B201DEB83009793A3 /* Array Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Stack.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		71D95EF2201D2A43009793A3 /* WTak_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				71D95F0D201DF834009793A3 /* Data Structure */,
 				71D95EFC201DC8D3009793A3 /* Sort */,
 			);
 			path = WTak_Algorithm;
@@ -72,8 +75,33 @@
 				71D95EFD201DCCAF009793A3 /* Selection Sort.cpp */,
 				71D95EFF201DCCBD009793A3 /* Insertion Sort.cpp */,
 				71D95F02201DCEB4009793A3 /* Merge Sort.cpp */,
+				71D95F04201DD5AD009793A3 /* Quick Sort.cpp */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		71D95F0D201DF834009793A3 /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				71D95F0F201DF84B009793A3 /* queue */,
+				71D95F0E201DF843009793A3 /* stack */,
+			);
+			path = "Data Structure";
+			sourceTree = "<group>";
+		};
+		71D95F0E201DF843009793A3 /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				71D95F0B201DEB83009793A3 /* Array Stack.cpp */,
+			);
+			path = stack;
+			sourceTree = "<group>";
+		};
+		71D95F0F201DF84B009793A3 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D95F03201DCEB4009793A3 /* Merge Sort.cpp in Sources */,
+				71D95F0C201DEB83009793A3 /* Array Stack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
