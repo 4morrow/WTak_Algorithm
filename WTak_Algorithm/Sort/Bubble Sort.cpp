@@ -6,7 +6,6 @@
 //  Copyright © 2018년 WTak. All rights reserved.
 //
 
-
 // 시간복잡도 O(n^2)
 
 #include <stdio.h>
