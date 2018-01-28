@@ -6,6 +6,9 @@
 //  Copyright © 2018년 WTak. All rights reserved.
 //
 
+
+// 시간복잡도 O(n^2)
+
 #include <stdio.h>
 #define SWAP(a,b,type) do{type temp; temp = a; a = b; b = temp;}while(0);
 enum {
