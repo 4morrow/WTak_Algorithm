@@ -21,7 +21,7 @@ void merge(int *arr, int left, int mid, int right) {
     i = left;
     j = mid + 1;
     k = left;
-    
+
     int temp[MAX_SIZE];
     
     // 두 개의 블록을 비교
