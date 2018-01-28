@@ -8,7 +8,6 @@
 
 // 시간복잡도 O(N^2)
 
-
 #include <stdio.h>
 #define SWAP(a,b,type) do{type temp; temp = a; a = b; b = temp;}while(0);
 
