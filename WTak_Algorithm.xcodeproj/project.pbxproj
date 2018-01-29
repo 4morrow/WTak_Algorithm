@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		71D95F1A201EF2DD009793A3 /* Linear Queue(Array).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D95F19201EF2DD009793A3 /* Linear Queue(Array).cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		71D95EEE201D2A43009793A3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -32,7 +28,6 @@
 		71D95F0B201DEB83009793A3 /* Array Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Stack.cpp"; sourceTree = "<group>"; };
 		71D95F10201DFA1A009793A3 /* Array StudentStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array StudentStack.cpp"; sourceTree = "<group>"; };
 		71D95F12201EB9B7009793A3 /* Array MazeStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array MazeStack.cpp"; sourceTree = "<group>"; };
-		71D95F19201EF2DD009793A3 /* Linear Queue(Array).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Linear Queue(Array).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +100,6 @@
 		71D95F0F201DF84B009793A3 /* queue */ = {
 			isa = PBXGroup;
 			children = (
-				71D95F19201EF2DD009793A3 /* Linear Queue(Array).cpp */,
 			);
 			path = queue;
 			sourceTree = "<group>";
@@ -167,7 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D95F1A201EF2DD009793A3 /* Linear Queue(Array).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
