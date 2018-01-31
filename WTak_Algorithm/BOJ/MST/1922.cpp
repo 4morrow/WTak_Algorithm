@@ -17,7 +17,7 @@
  
  // 간선 정보 구조체
  typedef struct {
- int from, to, cost;
+    int from, to, cost;
  }Edge;
  
  // 간선 배열
@@ -126,50 +126,49 @@
  priority_queue<pair<int, pair<int, int>> > pq;
  
  int Find(int a) {
- if(a == p[a]) return a;
- else return p[a] = Find(p[a]);
+     if(a == p[a]) return a;
+     else return p[a] = Find(p[a]);
  }
  
  void Union(int a, int b) {
- a = Find(a);
- b = Find(b);
- p[a] = b;
+     a = Find(a);
+     b = Find(b);
+     p[a] = b;
  }
- 
- void pqSort() {
- int ans = 0;
- int cnt = 0;
- while(!pq.empty()) {
- int from = pq.top().second.first;
- int to = pq.top().second.second;
- int cost = -pq.top().first;
- //printf("pq : %d %d %d\n",now.from,now.to,now.cost);
- pq.pop();
- 
- x = Find(from);
- y = Find(to);
- 
- if(x != y) {
- cnt++;
- Union(from,to);
- ans += cost;
- }
- if(cnt == n-1) break;
- }
- printf("%d\n",ans);
- }
- 
- int main() {
- int a,b,c;
- scanf("%d %d",&n,&m);
- for(int i=1; i<=n; i++) p[i] = i;
- for(int i=0; i<m; i++) {
- scanf("%d %d %d",&a,&b,&c);
- pq.push({-c,{a,b}});
- }
- pqSort();
- 
- return 0;
+
+void pqSort() {
+    int ans = 0;
+    int cnt = 0;
+    while(!pq.empty()) {
+        int from = pq.top().second.first;
+        int to = pq.top().second.second;
+        int cost = -pq.top().first;
+        //printf("pq : %d %d %d\n",now.from,now.to,now.cost);
+        pq.pop();
+        
+        x = Find(from);
+        y = Find(to);
+        
+        if(x != y) {
+            cnt++;
+            Union(from,to);
+            ans += cost;
+        }
+        if(cnt == n-1) break;
+    }
+    printf("%d\n",ans);
+}
+
+int main() {
+     int a,b,c;
+     scanf("%d %d",&n,&m);
+     for(int i=1; i<=n; i++) p[i] = i;
+     for(int i=0; i<m; i++) {
+         scanf("%d %d %d",&a,&b,&c);
+         pq.push({-c,{a,b}});
+     }
+     pqSort();
+     return 0;
  }
  
 
