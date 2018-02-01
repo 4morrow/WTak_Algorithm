@@ -112,9 +112,6 @@
  
  */
 
-
-
- // 우선순위 큐
  
  #include <cstdio>
  #include <iostream>
@@ -123,6 +120,8 @@
  
  int n,m,x,y;
  int p[1005];
+
+// 우선순위 큐 사용
  priority_queue<pair<int, pair<int, int>> > pq;
  
  int Find(int a) {
@@ -170,5 +169,3 @@ int main() {
      pqSort();
      return 0;
  }
- 
-
