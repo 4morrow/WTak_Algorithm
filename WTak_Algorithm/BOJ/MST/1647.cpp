@@ -19,7 +19,6 @@ Edge adj[1000005];
 int p[100005];
 int n,m,x,y;
 
-
 void quicksort(Edge *arr, int left, int right) {
     if(left > right) return;
     
