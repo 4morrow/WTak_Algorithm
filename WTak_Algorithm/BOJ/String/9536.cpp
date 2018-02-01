@@ -111,7 +111,6 @@ void judge() {
     puts("");
 }
 
-
 int main() {
     int testCase, tc;
     scanf("%d",&tc);
@@ -121,6 +120,6 @@ int main() {
         cryCollect();
         judge();
     }
+    
     return 0;
 }
-
